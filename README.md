@@ -1,35 +1,100 @@
-# vet clinic
+<a name="readme-top"></a>
 
-> For this project, I will use a relational database to create the data structure for a vet clinic. The database will hold tables holding information about the following: animals, animals' owners, clinic employees and visits.
+<div align="center">
 
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Getting Started
+  <h3><b>VET SHOP</b></h3>
 
-This repository includes files with plain SQL that can be used to recreate a database:
+</div>
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. 
+# 📗 Table of Contents
 
-## Authors
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-👤 **FLORIN VOICU**
+# 📖 Countries <a name="about-project"></a>
+
+**Vet** is a project made for a VET SHOP.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+VS Code, GIT and NPM installed
+
+### Setup
+
+Clone this repository to your desired folder using the git clone command
+
+### Install
+
+Install postgreSQL
+
+### Usage
+
+Run the code in the console/database.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Florin Voicu**
 
 - GitHub: [@vflorin1995](https://github.com/vflorin1995)
-- Twitter: [@vflorin1995](https://twitter.com/vflorin1995)
-- LinkedIn: [Florin VOicu](https://www.linkedin.com/in/florin--voicu)
+- LinkedIn: [@florin--voicu](https://linkedin.com/in/florin--voicu)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
+If you like this project give a star
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Emilia for creating this awesome Captone task
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
