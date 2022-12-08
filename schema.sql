@@ -13,3 +13,22 @@ CREATE TABLE animals (
 
 ALTER TABLE animals
 ADD species varchar;
+
+-- PROJECT 3
+
+CREATE TABLE owners (
+    id int PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    full_name varchar,
+    age int
+);
+
+CREATE TABLE species (
+    id int PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    name varchar
+);
+
+ALTER TABLE animals DROP COLUMN species;
+ALTER TABLE animals ADD COLUMN species_id int;
+ALTER TABLE animals ADD FOREIGN KEY (species_id) REFERENCES species (id);
+ALTER TABLE animals ADD COLUMN owner_id int;
+ALTER TABLE animals ADD FOREIGN KEY (owner_id) REFERENCES owners (id);
